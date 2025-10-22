@@ -77,4 +77,19 @@ print(".........................................................................
 #-------------------------------------------------------------------------------------------
 
 #39.Crea una lista de números
-numeros3 =
+numeros3 =  [3, 14, 56, 2, 76, 23]
+
+#Invierte el orden de los números sin usar reverse()
+numeros_invertidos = numeros3[::-1]
+print(numeros_invertidos)
+print("...............................................................................")
+
+#-------------------------------------------------------------------------------------------
+
+#40.Divide una lista en partes iguales
+numeros4 = [7, 3, 4, 9, 12, 34, 54, 67]
+primera_parte = numeros4[:2]
+segunda_parte = numeros4[2:4]
+tercera_parte = numeros4[4:6]
+cuarta_parte = numeros4[6:8]
+print(primera_parte, segunda_parte, tercera_parte, cuarta_parte)
