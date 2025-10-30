@@ -74,3 +74,18 @@ print(".........................................................................
 
 #-------------------------------------------------------------------------------------------
 
+#49.Divide una lista de estudiantes en dos grupos de forma alterna (uno para cada grupo)
+estudiantes = ["Ana", "Luis", "Carlos", "Marta", "Sofia", "Jorge"]
+grupo1 = estudiantes[::2]
+grupo2 = estudiantes[1::2]
+print("Grupo 1:", grupo1)
+print("Grupo 2:", grupo2)
+print("...............................................................................")
+
+#-------------------------------------------------------------------------------------------
+
+#50.Crea una lista de números y usa reduce() para calcular el producto de todos los números en la lista
+from functools import reduce
+numeros3 = [1, 2, 3, 4, 5]
+producto = reduce(lambda x, y: x * y, numeros3)
+print(producto)
