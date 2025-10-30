@@ -1,4 +1,4 @@
-#Ejercicios del 1 al 10
+#Ejercicios del 1 al 10 Listas
 
 #1.Crea una lista con los 5 primeros números enteros
 numeros = [1, 2, 3, 4, 5]

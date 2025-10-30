@@ -1,4 +1,4 @@
-#Ejercicios del 21 al 30
+#Ejercicios del 21 al 30 Listas
 
 #21.Crea una lista de números 
 numeros1 = [2, 4, 10, 23, 41]

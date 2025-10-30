@@ -1,4 +1,4 @@
-#Ejercicios del 31 al 40
+#Ejercicios del 31 al 40 Listas
 
 #31.Crea una lista que contenga números y cadenas
 mezcla = [2, 45, "pizza", 34, "peru"]

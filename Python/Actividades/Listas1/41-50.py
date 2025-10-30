@@ -1,4 +1,4 @@
-#Ejercicios del 41 al 50
+#Ejercicios del 41 al 50 Listas
 
 #41.Crea una lista con los precios de los productos
 precios = [23.4, 12, 31, 47.5, 1.33]

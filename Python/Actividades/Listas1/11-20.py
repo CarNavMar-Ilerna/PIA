@@ -1,4 +1,4 @@
-#Ejercicios del 11 al 20
+#Ejercicios del 11 al 20 Listas
 
 #11.Combinamos dos listas de números usando el operador +
 numeros1 = [10, 22, 33]
