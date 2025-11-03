@@ -1,4 +1,4 @@
-#Ejercicios del 1 al 10 Bucles
+#Ejercicios del 1 al 5 Bucles
 
 #1.Numeros pares con for
 for numero in range(1, 100):
@@ -62,7 +62,3 @@ if es_palindromo:
     print(f'"{texto}" es un palíndromo.')
 else:
     print(f'"{texto}" no es un palíndromo.')
-print("...............................................................................")
-
-#-------------------------------------------------------------------------------------------
-
