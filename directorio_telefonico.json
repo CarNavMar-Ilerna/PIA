@@ -1,0 +1,64 @@
+{
+  "contactos": [
+    {
+      "nombre": "Juan",
+      "apellidos": "Pérez",
+      "telefono": "612345678",
+      "correo": "juan@example.com"
+    },
+    {
+      "nombre": "Laura",
+      "apellidos": "Gómez",
+      "telefono": "623456789",
+      "correo": "laura@example.com"
+    },
+    {
+      "nombre": "Carlos",
+      "apellidos": "Martínez",
+      "telefono": "634567890",
+      "correo": "carlos@example.com"
+    },
+    {
+      "nombre": "Ana",
+      "apellidos": "López",
+      "telefono": "645678901",
+      "correo": "ana@example.com"
+    },
+    {
+      "nombre": "Miguel",
+      "apellidos": "Sánchez",
+      "telefono": "656789012",
+      "correo": "miguel@example.com"
+    },
+    {
+      "nombre": "Elena",
+      "apellidos": "Fernández",
+      "telefono": "667890123",
+      "correo": "elena@example.com"
+    },
+    {
+      "nombre": "David",
+      "apellidos": "García",
+      "telefono": "678901234",
+      "correo": "david@example.com"
+    },
+    {
+      "nombre": "Sara",
+      "apellidos": "Rodríguez",
+      "telefono": "689012345",
+      "correo": "sara@example.com"
+    },
+    {
+      "nombre": "Pablo",
+      "apellidos": "Hernández",
+      "telefono": "690123456",
+      "correo": "pablo@example.com"
+    },
+    {
+      "nombre": "Marta",
+      "apellidos": "Díaz",
+      "telefono": "601234567",
+      "correo": "marta@example.com"
+    }
+  ]
+}

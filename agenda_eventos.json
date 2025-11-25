@@ -1,0 +1,64 @@
+{
+  "eventos": [
+    {
+      "titulo": "Conferencia Python",
+      "fecha": "2024-11-15",
+      "ubicacion": "Madrid",
+      "organizador": "PyCon España"
+    },
+    {
+      "titulo": "Taller de IA",
+      "fecha": "2024-12-01",
+      "ubicacion": "Barcelona",
+      "organizador": "TechFest"
+    },
+    {
+      "titulo": "Hackathon 2024",
+      "fecha": "2024-11-20",
+      "ubicacion": "Valencia",
+      "organizador": "DevCommunity"
+    },
+    {
+      "titulo": "Meetup JavaScript",
+      "fecha": "2024-11-10",
+      "ubicacion": "Madrid",
+      "organizador": "JS España"
+    },
+    {
+      "titulo": "Seminario Cloud",
+      "fecha": "2024-12-05",
+      "ubicacion": "Sevilla",
+      "organizador": "CloudExperts"
+    },
+    {
+      "titulo": "Workshop React",
+      "fecha": "2024-11-25",
+      "ubicacion": "Barcelona",
+      "organizador": "Frontend Masters"
+    },
+    {
+      "titulo": "Conferencia DevOps",
+      "fecha": "2024-12-10",
+      "ubicacion": "Madrid",
+      "organizador": "DevOps Spain"
+    },
+    {
+      "titulo": "Charla Ciberseguridad",
+      "fecha": "2024-11-18",
+      "ubicacion": "Bilbao",
+      "organizador": "SecureIT"
+    },
+    {
+      "titulo": "Feria Tecnológica",
+      "fecha": "2024-12-15",
+      "ubicacion": "Barcelona",
+      "organizador": "TechExpo"
+    },
+    {
+      "titulo": "Curso Machine Learning",
+      "fecha": "2024-11-30",
+      "ubicacion": "Madrid",
+      "organizador": "AI Academy"
+    }
+  ]
+}
