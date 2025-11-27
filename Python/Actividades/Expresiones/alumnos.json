@@ -1,0 +1,58 @@
+[
+    {
+        "nombre": "Sofía Hernández",
+        "email": "sofia.hernandez@ilerna.com",
+        "telefono": "645789123",
+        "codigo_postal": "28045",
+        "curso": "DAW2"
+    },
+    {
+        "nombre": "Diego Fernández",
+        "email": "diego.fdez@estudiante.es",
+        "telefono": "712456789",
+        "codigo_postal": "08015",
+        "curso": "DAM1"
+    },
+    {
+        "nombre": "Carmen Sánchez",
+        "email": "carmen.sanchez@gmail.com",
+        "telefono": "623987654",
+        "codigo_postal": "41010",
+        "curso": "DAW2"
+    },
+    {
+        "nombre": "Javier Moreno",
+        "email": "javi.moreno@hotmail.com",
+        "telefono": "956234567",
+        "codigo_postal": "46022",
+        "curso": "DAM2"
+    },
+    {
+        "nombre": "Elena Torres",
+        "email": "elena.torres@outlook.es",
+        "telefono": "687321456",
+        "codigo_postal": "50008",
+        "curso": "DAW1"
+    },
+    {
+        "nombre": "Pablo Jiménez",
+        "email": "pablo.jimenez@yahoo.es",
+        "telefono": "612876543",
+        "codigo_postal": "29016",
+        "curso": "DAM1"
+    },
+    {
+        "nombre": "Lucía Romero",
+        "email": "lucia.romero@proton.me",
+        "telefono": "765432198",
+        "codigo_postal": "03001",
+        "curso": "DAW2"
+    },
+    {
+        "nombre": "Marcos Vega",
+        "email": "marcos_vega@live.com",
+        "telefono": "934876521",
+        "codigo_postal": "15001",
+        "curso": "DAM2"
+    }
+]

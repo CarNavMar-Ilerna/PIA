@@ -1,0 +1,58 @@
+[
+    {
+        "matricula": "8765KLM",
+        "marca": "Peugeot",
+        "modelo": "208",
+        "año": 2022,
+        "propietario_email": "sofia.hernandez@ilerna.com"
+    },
+    {
+        "matricula": "2341BCD",
+        "marca": "Renault",
+        "modelo": "Clio",
+        "año": 2020,
+        "propietario_email": "diego.fdez@estudiante.es"
+    },
+    {
+        "matricula": "5432XYZ",
+        "marca": "Nissan",
+        "modelo": "Qashqai",
+        "año": 2019,
+        "propietario_email": "carmen.sanchez@gmail.com"
+    },
+    {
+        "matricula": "9876FGH",
+        "marca": "Hyundai",
+        "modelo": "Tucson",
+        "año": 2021,
+        "propietario_email": "javi.moreno@hotmail.com"
+    },
+    {
+        "matricula": "1122RST",
+        "marca": "Mazda",
+        "modelo": "CX-5",
+        "año": 2018,
+        "propietario_email": "elena.torres@outlook.es"
+    },
+    {
+        "matricula": "6789VWX",
+        "marca": "Kia",
+        "modelo": "Sportage",
+        "año": 2023,
+        "propietario_email": "pablo.jimenez@yahoo.es"
+    },
+    {
+        "matricula": "4321MNP",
+        "marca": "Opel",
+        "modelo": "Astra",
+        "año": 2017,
+        "propietario_email": "lucia.romero@proton.me"
+    },
+    {
+        "matricula": "7654QRS",
+        "marca": "Dacia",
+        "modelo": "Sandero",
+        "año": 2016,
+        "propietario_email": "marcos_vega@live.com"
+    }
+]
