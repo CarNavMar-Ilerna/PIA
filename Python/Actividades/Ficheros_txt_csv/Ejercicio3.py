@@ -1,7 +1,9 @@
 import csv
+import os
 
 
 def leer_cotizaciones(fichero):
+    ruta_fichero = os.path.join(os.path.dirname(__file__), fichero)
     cotizaciones = {
         'Nombre': [],
         'Final': [],
@@ -12,7 +14,7 @@ def leer_cotizaciones(fichero):
     }
     
     try:
-        with open(fichero, 'r', encoding='utf-8') as archivo:
+        with open(ruta_fichero, 'r', encoding='utf-8') as archivo:
             lector = csv.DictReader(archivo, delimiter=';')
             for fila in lector:
                 cotizaciones['Nombre'].append(fila['Nombre'])
@@ -42,7 +44,8 @@ def crear_estadisticas(diccionario):
             'Media': sum(valores) / len(valores)
         }
     
-    with open('estadisticas.csv', 'w', newline='', encoding='utf-8') as archivo:
+    ruta_salida = os.path.join(os.path.dirname(__file__), 'estadisticas.csv')
+    with open(ruta_salida, 'w', newline='', encoding='utf-8') as archivo:
         escritor = csv.writer(archivo)
         escritor.writerow(['Columna', 'Mínimo', 'Máximo', 'Media'])
         

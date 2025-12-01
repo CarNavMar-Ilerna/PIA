@@ -1,11 +1,13 @@
 import csv
+import os
 
 
 def leer_calificaciones(fichero):
+    ruta_fichero = os.path.join(os.path.dirname(__file__), fichero)
     alumnos = []
     
     try:
-        with open(fichero, 'r', encoding='utf-8') as archivo:
+        with open(ruta_fichero, 'r', encoding='utf-8') as archivo:
             lector = csv.DictReader(archivo)
             for fila in lector:
                 alumno = {

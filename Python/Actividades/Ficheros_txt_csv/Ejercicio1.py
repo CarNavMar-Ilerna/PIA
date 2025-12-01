@@ -1,20 +1,26 @@
+import os
+
+
 def escribir_tabla(n):
-    with open(f'tabla-{n}.txt', 'w') as archivo:
+    nombre_archivo = os.path.join(os.path.dirname(__file__), f'tabla-{n}.txt')
+    with open(nombre_archivo, 'w') as archivo:
         for i in range(1, 11):
             archivo.write(f'{n} x {i} = {n * i}\n')
 
 
 def leer_tabla(n):
+    nombre_archivo = os.path.join(os.path.dirname(__file__), f'tabla-{n}.txt')
     try:
-        with open(f'tabla-{n}.txt', 'r') as archivo:
+        with open(nombre_archivo, 'r') as archivo:
             print(archivo.read())
     except FileNotFoundError:
         print(f'El fichero tabla-{n}.txt no existe.')
 
 
 def leer_linea_tabla(n, m):
+    nombre_archivo = os.path.join(os.path.dirname(__file__), f'tabla-{n}.txt')
     try:
-        with open(f'tabla-{n}.txt', 'r') as archivo:
+        with open(nombre_archivo, 'r') as archivo:
             lineas = archivo.readlines()
             if 1 <= m <= len(lineas):
                 print(lineas[m - 1].strip())

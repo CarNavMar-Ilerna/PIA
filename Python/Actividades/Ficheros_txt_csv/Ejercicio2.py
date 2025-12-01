@@ -1,15 +1,18 @@
 import os
 
 
+LISTIN_FILE = os.path.join(os.path.dirname(__file__), 'listin.txt')
+
+
 def crear_listin():
-    if not os.path.exists('listin.txt'):
-        with open('listin.txt', 'w') as archivo:
+    if not os.path.exists(LISTIN_FILE):
+        with open(LISTIN_FILE, 'w') as archivo:
             pass
 
 
 def consultar_telefono(nombre):
     try:
-        with open('listin.txt', 'r') as archivo:
+        with open(LISTIN_FILE, 'r') as archivo:
             for linea in archivo:
                 if ',' in linea:
                     nombre_cliente, telefono = linea.strip().split(',')
@@ -22,16 +25,16 @@ def consultar_telefono(nombre):
 
 def anadir_cliente(nombre, telefono):
     crear_listin()
-    with open('listin.txt', 'a') as archivo:
+    with open(LISTIN_FILE, 'a') as archivo:
         archivo.write(f'{nombre},{telefono}\n')
 
 
 def eliminar_cliente(nombre):
     try:
-        with open('listin.txt', 'r') as archivo:
+        with open(LISTIN_FILE, 'r') as archivo:
             lineas = archivo.readlines()
         
-        with open('listin.txt', 'w') as archivo:
+        with open(LISTIN_FILE, 'w') as archivo:
             encontrado = False
             for linea in lineas:
                 if ',' in linea:
