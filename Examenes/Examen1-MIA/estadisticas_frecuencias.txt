@@ -1,0 +1,59 @@
+ANALISIS DE FRECUENCIA DE PALABRAS
+Texto: Adan y Eva en el Paraiso
+============================================================
+
+Total de palabras unicas: 12338
+Total de palabras en el texto: 36969
+
+Top 50 palabras mas frecuentes:
+------------------------------------------------------------
+ 1. tan                  -  206 veces
+ 2. hombre               -  133 veces
+ 3. don                  -  120 veces
+ 4. dos                  -  115 veces
+ 5. ojos                 -  111 veces
+ 6. después              -  110 veces
+ 7. macario              -  109 veces
+ 8. ruy                  -  107 veces
+ 9. toda                 -  104 veces
+10. entonces             -   93 veces
+11. señor                -   92 veces
+12. noche                -   87 veces
+13. solo                 -   81 veces
+14. vida                 -   81 veces
+15. amigo                -   81 veces
+16. bajo                 -   79 veces
+17. siempre              -   79 veces
+18. casa                 -   79 veces
+19. matías               -   77 veces
+20. jacinto              -   76 veces
+21. mano                 -   74 veces
+22. tarde                -   72 veces
+23. diosa                -   72 veces
+24. josé                 -   71 veces
+25. adán                 -   69 veces
+26. día                  -   68 veces
+27. tierra               -   68 veces
+28. años                 -   67 veces
+29. amor                 -   64 veces
+30. oro                  -   63 veces
+31. manos                -   63 veces
+32. ahora                -   62 veces
+33. alma                 -   62 veces
+34. padre                -   61 veces
+35. sol                  -   60 veces
+36. hacia                -   60 veces
+37. brazos               -   59 veces
+38. cielo                -   59 veces
+39. elisa                -   59 veces
+40. través               -   58 veces
+41. dulce                -   58 veces
+42. dios                 -   57 veces
+43. corazón              -   57 veces
+44. cuerpo               -   56 veces
+45. luego                -   56 veces
+46. vez                  -   55 veces
+47. ser                  -   54 veces
+48. nunca                -   54 veces
+49. delante              -   53 veces
+50. agua                 -   52 veces
