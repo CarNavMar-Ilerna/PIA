@@ -1,0 +1,15 @@
+# Dependencias para Práctica 01 UD03 PLN
+# Modelos de Inteligencia Artificial
+
+# Análisis sintáctico
+spacy>=3.5.0
+nltk>=3.8.0
+
+# Conversión de texto a voz
+gtts>=2.3.0
+
+# Detección de idioma
+langdetect>=1.0.9
+
+# Visualización (opcional)
+matplotlib>=3.7.0
