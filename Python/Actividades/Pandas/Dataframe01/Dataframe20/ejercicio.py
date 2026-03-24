@@ -1,0 +1,35 @@
+import pandas as pd
+import os
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+excel_path = os.path.join(script_dir, 'alumnos_formateado.xlsx')
+
+datos = {
+    'Nombre': ['Ana', 'Luis', 'Marta', 'Carlos', 'Elena', 'Pedro', 'Sara', 'Jorge'],
+    'Edad': [19, 21, 20, 18, 22, 23, 19, 20],
+    'Programacion': [8.5, 6.0, 9.0, 5.5, 7.5, 4.0, 8.0, 6.5],
+    'Base de Datos': [7.0, 5.5, 8.5, 6.0, 9.0, 3.5, 7.5, 5.0],
+    'Sistemas': [6.5, 7.0, 7.5, 4.5, 8.5, 5.0, 6.0, 7.0],
+    'Lenguajes': [9.0, 4.5, 8.0, 5.0, 6.5, 6.0, 9.5, 4.0],
+    'Redes': [5.5, 8.0, 6.5, 7.0, 7.0, 6.5, 5.0, 8.5],
+}
+
+df = pd.DataFrame(datos)
+modulos = ['Programacion', 'Base de Datos', 'Sistemas', 'Lenguajes', 'Redes']
+df['Promedio General'] = df[modulos].mean(axis=1)
+
+writer = pd.ExcelWriter(excel_path, engine='xlsxwriter')
+df.to_excel(writer, index=False, sheet_name='Alumnos')
+
+workbook = writer.book
+worksheet = writer.sheets['Alumnos']
+formato_decimal = workbook.add_format({'num_format': '0.00'})
+
+for col_idx, col_name in enumerate(df.columns):
+    if col_name in modulos or col_name == 'Promedio General':
+        worksheet.set_column(col_idx, col_idx, 15, formato_decimal)
+    else:
+        worksheet.set_column(col_idx, col_idx, 12)
+
+writer.close()
+print(f"DataFrame exportado a Excel con dos decimales: {excel_path}")
